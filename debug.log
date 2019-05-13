@@ -1,0 +1,6 @@
+[0513/143346.229:ERROR:file_io_win.cc(179)] CreateFile C:\Users\Kilian\AppData\Local\Google\Chrome\User Data\Crashpad\settings.dat: Accès refusé. (0x5)
+[0513/143346.230:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: Le canal de communication a été fermé. (0x6D)
+[0513/143346.231:ERROR:file_io_win.cc(179)] CreateFile C:\Users\Kilian\AppData\Local\Google\Chrome\User Data\Crashpad\settings.dat: Accès refusé. (0x5)
+[0513/143729.968:ERROR:file_io_win.cc(179)] CreateFile C:\Users\Kilian\AppData\Local\Google\Chrome\User Data\Crashpad\settings.dat: Accès refusé. (0x5)
+[0513/143729.969:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: Le canal de communication a été fermé. (0x6D)
+[0513/143729.970:ERROR:file_io_win.cc(179)] CreateFile C:\Users\Kilian\AppData\Local\Google\Chrome\User Data\Crashpad\settings.dat: Accès refusé. (0x5)
