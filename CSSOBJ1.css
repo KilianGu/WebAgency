@@ -3,112 +3,106 @@
 
 @font-face 
 {
-font-family: 'GLYPHICONS Halflings';
-src: url("Fonts/glyphicons-halflings-regular.eot");
-src: url("Fonts/glyphicons-halflings-regular.svg");
-src: url("Fonts/glyphicons-halflings-regular.ttf");
-src: url("Fonts/glyphicons-halflings-regular.woff");
- }
+	font-family: 'GLYPHICONS Halflings';
+	src: url("Fonts/glyphicons-halflings-regular.eot");	
+	src: url("Fonts/glyphicons-halflings-regular.svg");
+	src: url("Fonts/glyphicons-halflings-regular.ttf");
+	src: url("Fonts/glyphicons-halflings-regular.woff");
+}
 
- @font-face 
+@font-face 
 {
-font-family: 'Roboto';
-src: url("Fonts/Roboto-Regular.ttf");
+	font-family: 'Roboto';
+	src: url("Fonts/Roboto-Regular.ttf");
+}
 
- }
-
- @font-face 
+@font-face 
 {
-font-family: 'GLYPHICONS Halflings';
-src: url("Fonts/glyphicons-halflings-regular.eot");
-src: url("Fonts/glyphicons-halflings-regular.svg");
-src: url("Fonts/glyphicons-halflings-regular.ttf");
-src: url("Fonts/glyphicons-halflings-regular.woff");
- }
+	font-family: 'GLYPHICONS Halflings';
+	src: url("Fonts/glyphicons-halflings-regular.eot");
+	src: url("Fonts/glyphicons-halflings-regular.svg");
+	src: url("Fonts/glyphicons-halflings-regular.ttf");
+	src: url("Fonts/glyphicons-halflings-regular.woff");
+}
 /*---------------*/
- /*Corps de page*/
+/*Corps de page*/
 
 
 
- #flechegauche
- {
-   color: white;
-   background-color: rgba(0,0,0,0.3);
-   padding: 25px;
-   border-radius: 80px;
-   cursor: pointer;
-   width: 40px;
-   height: 40px;
-   margin-left: -45px;
- }
+#flechegauche
+{
+	color: white;
+	background-color: rgba(0,0,0,0.3);
+	padding: 25px;
+	border-radius: 80px;
+	cursor: pointer;
+	width: 40px;
+	height: 40px;
+	margin-left: -45px;
+}
 
- .fa-chevron-left
- {
- 	font-size: 0.8em;
- 	margin-left: 30px;
- 	margin-top: 10px;
- }
+.fa-chevron-left
+{
+	font-size: 0.8em;
+	margin-left: 30px;
+	margin-top: 10px;
+}
 
 #flechedroite
 {
-   color: white;
-   background-color: rgba(0,0,0,0.3);
-   padding: 25px;
-   border-radius: 80px;
-   cursor: pointer;
-   width: 40px;
-   height: 40px;
-   margin-right: -45px;
-
+	color: white;
+	background-color: rgba(0,0,0,0.3);
+	padding: 25px;
+	border-radius: 80px;
+	cursor: pointer;
+	width: 40px;
+	height: 40px;
+	margin-right: -45px;
 }
 
 .fa-chevron-right
- {
- 	font-size: 0.8em;
- 	margin-top: 10px;
- }
-
-
+{
+	font-size: 0.8em;
+	margin-top: 10px;
+}
 
 .fa-chart-line:before
 {
-color: #5CADD3;
-position: relative;
-left: -70px;
-font-size: 2.1em;
-top: 40px;
-border: 1px grey solid;
-opacity: 0.8;
-border-radius: 30px;
-padding: 10px;
-
+	color: #5CADD3;
+	position: relative;
+	left: -70px;
+	font-size: 2.1em;
+	top: 40px;
+	border: 1px grey solid;
+	opacity: 0.8;
+	border-radius: 30px;
+	padding: 10px;
 }
-
 
 .fa-cubes:before
 {
-color: #5CADD3;
-position: relative;
-left: -70px;
-font-size: 2.1em;
-top: 40px;
-border: 1px grey solid;
-opacity: 0.8;
-border-radius: 30px;
-padding: 10px;
+	color: #5CADD3;
+	position: relative;
+	left: -70px;
+	font-size: 2.1em;
+	top: 40px;
+	border: 1px grey solid;
+	opacity: 0.8;
+	border-radius: 30px;
+	padding: 10px;
 }
 
 .fa-chart-pie:before
 {
-color: #5CADD3;
-position: relative;
-left: -70px;
-font-size: 2.1em;
-top: 40px;
-border: 1px grey solid;
-opacity: 0.8;
-border-radius: 30px;
-padding: 10px;
+	color: #5CADD3;
+	position: relative;
+	left: -70px;
+	font-size: 2.1em;
+	top: 40px;
+	border: 1px grey solid;
+	opacity: 0.8;
+	border-radius: 30px;
+	padding: 10px;
 }
 
 .fa-eye:before
@@ -121,29 +115,28 @@ padding: 10px;
 	font-size: 0.9em;
 	padding: 10px;
 	background: linear-gradient(#3985A8, #52B3C4);
-
 }
 
 .bleuicone
 {
- background-color: #5CADD3;
- width: 12px ; 
- height: 12px ;
- border-radius: 50%;
- border: 2px white solid;
- position: relative;
- right: 22px;
- top: 16px;
+	background-color: #5CADD3;
+	width: 12px ; 
+	height: 12px ;
+	border-radius: 50%;
+	border: 2px white solid;
+	position: relative;
+	right: 22px;
+	top: 16px;
 
 }
 
 
- #logosite
- {
- 	width: 200px;
- 	margin-top: 20px;
+#logosite
+{
+	width: 200px;
+	margin-top: 20px;
 
- }
+}
 
 #mainpage
 {
@@ -153,11 +146,11 @@ padding: 10px;
 
 #txtimg
 {
-    font-size: 1.6em;
-    text-indent: initial;
-    margin-top: 40px;
-    margin-bottom: 6px;
-    margin-left: -800px;
+	font-size: 1.6em;
+	text-indent: initial;
+	margin-top: 40px;
+	margin-bottom: 6px;
+	margin-left: -800px;
 
 }
 
@@ -184,7 +177,7 @@ padding: 10px;
 	justify-content: space-between;
 	align-items: center;
 	position: relative;
-	bottom: 450px;
+	bottom: 250px;
 }
 
 strong
@@ -251,14 +244,14 @@ strong
 
 .pointbleu
 {
-background-color: #5CADD3;
-width: 15px ; 
-height: 15px ;
-margin: auto;
-border-radius: 50%;
-margin-top: -14px;
-margin-bottom: 30px;
-border: 6px white solid;
+	background-color: #5CADD3;
+	width: 15px ; 
+	height: 15px ;
+	margin: auto;
+	border-radius: 50%;
+	margin-top: -14px;
+	margin-bottom: 30px;
+	border: 6px white solid;
 
 }
 
@@ -281,7 +274,7 @@ hr
 	width: 100%;
 }
 
-#carte
+iframe
 {
 	width: 100%;
 	height: 1000px;
@@ -313,34 +306,34 @@ hr
 
 .imgpf
 {
-width: 430px;
-margin-top: 80px;
-margin-bottom: 20px;
+	width: 430px;
+	margin-top: 80px;
+	margin-bottom: 20px;
 }
 
 
 .descsection
 {
-text-align: center;
+	text-align: center;
 }
 
 .serv
 {
-display: inline;
-flex-direction: row;
+	display: inline;
+	flex-direction: row;
 }
 
 *
 {
 	margin : 0;
 	width: auto;
-	}
+}
 
 
 nav ul li
 {
- 	display: inline;
- 	list-style: none;
+	display: inline;
+	list-style: none;
 	width: 25%;
 	padding: 35px;
 }
@@ -412,11 +405,11 @@ form
 	height: 420px;
 	position : relative;
 	top: -300px;
-    left: 40%;
-    background-color: rgba(255, 255, 255, 0.6);
-    padding: 15px;
-    border: 2px black groove;
-    border-color: rgba(0, 0, 0, 0.4);
+	left: 40%;
+	background-color: rgba(255, 255, 255, 0.6);
+	padding: 15px;
+	border: 2px black groove;
+	border-color: rgba(0, 0, 0, 0.4);
 }
 
 input
@@ -424,7 +417,7 @@ input
 	padding-bottom: 10px;
 	margin-bottom: 25px;
 	width: auto;
- }
+}
 
 ul
 {
@@ -446,6 +439,11 @@ em
 	padding: 5px 5px 5px 5px;
 	border-radius: 5px 5px;
 	background-color: #6297B1;
+}
+
+#boutoninfo2 em:hover
+{
+	cursor: pointer;
 }
 
 /* Barre section projets */
@@ -501,9 +499,9 @@ em
 
 .fa-sort-down
 {
- visibility: hidden;
- font-size: 1.3em;
- color: #468CAD;
+	visibility: hidden;
+	font-size: 1.3em;
+	color: #468CAD;
 }
 
 .sectionbarre:hover .fa-sort-down
@@ -516,13 +514,13 @@ em
 
 figcaption
 {
- visibility: hidden;
- background-color: rgba(0,0,0,0.6);
- color: white;
- position: relative;
- bottom: 108px;
- height: 76px;
- padding-top: 8px;
+	visibility: hidden;
+	background-color: rgba(0,0,0,0.6);
+	color: white;
+	position: relative;
+	bottom: 108px;
+	height: 76px;
+	padding-top: 8px;
 
 }
 
@@ -536,7 +534,7 @@ h4
 
 figure:hover figcaption
 {
- visibility: visible;
+	visibility: visible;
 }
 
 figure:hover
@@ -581,7 +579,7 @@ figure:hover
 		margin: auto;
 		display: flex;
 		
-	 }
+	}
 
 	ul
 	{
@@ -591,7 +589,7 @@ figure:hover
 
 	#icopcbox
 	{
-     height: 108.33px;
+		height: 108.33px;
 	}
 
 	#logo
@@ -601,8 +599,8 @@ figure:hover
 
 	#icopc
 	{
-	  margin-left: 35%;
-	  margin-top: -18%;
+		margin-left: 35%;
+		margin-top: -18%;
 	}
 
 	#portfolio
@@ -616,10 +614,10 @@ figure:hover
 	}
 
 	.sectionbarre:hover .fa-sort-down
-    {
-	  visibility: initial;
-	  cursor: pointer;
-     }
+	{
+		visibility: initial;
+		cursor: pointer;
+	}
 	
 
 	form
@@ -633,8 +631,8 @@ figure:hover
 
 	#txtimg
 	{
-      margin-left: 0px;
-      font-size: 0.8em;
+		margin-left: 0px;
+		font-size: 0.8em;
 	}
 	
 	#alltxtimg
@@ -702,7 +700,7 @@ figure:hover
 		text-align: left;
 	}
 
-	#carte
+	iframe
 	{
 		height: 354px;
 		margin-bottom: 348px;
@@ -724,129 +722,129 @@ figure:hover
 @media all and (min-device-width: 2000px) and (max-device-width: 2560px)
 {
 	#txtimg
-{
-    font-size: 1.8em;
-    text-indent: initial;
-    position: absolute;
-    bottom: -140%;
-    left: 35%;
+	{
+		font-size: 1.8em;
+		text-indent: initial;
+		position: absolute;
+		bottom: -140%;
+		left: 35%;
 
-}
+	}
 
-#brrealiser
-{
-	display: flex;
-}
+	#brrealiser
+	{
+		display: flex;
+	}
 
-#brprojets2
-{
-	display: flex;
-}
+	#brprojets2
+	{
+		display: flex;
+	}
 
-#txtimg strong, em
-{
-	color: white;
-	font-size: 1.9em;
+	#txtimg strong, em
+	{
+		color: white;
+		font-size: 1.9em;
 
-}
+	}
 
-#BoutonInfo em
-{
-	margin-top: 50px;
-}
+	#BoutonInfo em
+	{
+		margin-top: 50px;
+	}
 
-.imgpf
-{
-	width: 590px;
-}
+	.imgpf
+	{
+		width: 590px;
+	}
 
-h2
-{
-	font-size: 4.2em;
-}
+	h2
+	{
+		font-size: 4.2em;
+	}
 	
-p
-{
-	font-size: 2.1em;
-}
+	p
+	{
+		font-size: 2.1em;
+	}
 
-.fa-chart-line:before
-{
- font-size: 3.5em;
- border-radius: 50px;
-}
+	.fa-chart-line:before
+	{
+		font-size: 3.5em;
+		border-radius: 50px;
+	}
 
-.fa-cubes:before
-{
- font-size: 3.5em;
-  border-radius: 50px;
-}
+	.fa-cubes:before
+	{
+		font-size: 3.5em;
+		border-radius: 50px;
+	}
 
-.fa-chart-pie:before
-{
- font-size: 3.5em;
-  border-radius: 50px;
-}
+	.fa-chart-pie:before
+	{
+		font-size: 3.5em;
+		border-radius: 50px;
+	}
 
-.bleuicone
-{
- width: 22px; 
- height: 22px;
- position: relative;
- right: 6px;
- top: -4px;
+	.bleuicone
+	{
+		width: 22px; 
+		height: 22px;
+		position: relative;
+		right: 6px;
+		top: -4px;
 
-}
+	}
 
-#icopc
-{
-	width: 650px;
-}
+	#icopc
+	{
+		width: 650px;
+	}
 
-.text
-{
-  font-size: 1.2em;
-  position: relative;
-  left: 40px;
-}
+	.text
+	{
+		font-size: 1.2em;
+		position: relative;
+		left: 40px;
+	}
 
-h3
-{
-	font-size: 2.1em;
-}
+	h3
+	{
+		font-size: 2.1em;
+	}
 
-h3, p
-{
-	position: relative;
-	left: 30px;
-}
+	h3, p
+	{
+		position: relative;
+		left: 30px;
+	}
 
-header
-{
-	
-}
+	header
+	{
 
-nav
-{
-	font-size: 1.8em;
-}
+	}
 
-
-
-.listserv
-{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	overflow: hidden;
-}
+	nav
+	{
+		font-size: 1.8em;
+	}
 
 
-form
-{
-height: 510px;
-padding: 22px;
-}
+
+	.listserv
+	{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		overflow: hidden;
+	}
+
+
+	form
+	{
+		height: 510px;
+		padding: 22px;
+	}
 
 }
 
@@ -857,19 +855,19 @@ padding: 22px;
 {
 
 	nav ul li
-   {
- 	 display: inline;
- 	 list-style: none;
-	 width: 25%;
- 	 padding-left: 2%;
- 	 padding-right: 2%;
- 	 padding-top: 35px;
- 	 margin-left: 20px;
-    }
+	{
+		display: inline;
+		list-style: none;
+		width: 25%;
+		padding-left: 2%;
+		padding-right: 2%;
+		padding-top: 35px;
+		margin-left: 20px;
+	}
 
 	#img
 	{
-     width: 100%;
+		width: 100%;
 	}
 
 
@@ -883,7 +881,7 @@ padding: 22px;
 
 	#alltxtimg
 	{
-      bottom: 365px;
+		bottom: 325px;
 	}
 
 	#BoutonInfo
@@ -893,168 +891,168 @@ padding: 22px;
 
 
 	.imgpf
-    {
-     width: 490px;
-     margin-top: 50px;
-     margin-bottom: 50px;
-    }
+	{
+		width: 490px;
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
 
-    #carte
-    {
-    	width: 100%;
-	   height: 100%;
-    }
+	iframe
+	{
+		width: 100%;
+		height: 100%;
+	}
 
-    form
+	form
 	{
 
-	justify-content: center;
-	align-content: center;
-	width: 50%;
-	top: -80px;
-	height: 420px;
-    left: 25%;
-    background-color: rgba(255, 255, 255, 0.6);
-    margin-top: 40px;
+		justify-content: center;
+		align-content: center;
+		width: 50%;
+		top: -80px;
+		height: 420px;
+		left: 25%;
+		background-color: rgba(255, 255, 255, 0.6);
+		margin-top: 40px;
 	}
 
 
 
-    
+
 
 }
 
 /* Responsive design en dessous de 768px */
 
- @media all and (min-device-width: 481px) and (max-device-width: 770px)
+@media all and (min-device-width: 481px) and (max-device-width: 768px)
 {
 
-  .imgpf
-{
+	.imgpf
+	{
 
-    width: 400px;
-    height: 100%;
-    margin-top: 20px;
-    margin-bottom: 50px;
- }
+		width: 400px;
+		height: 100%;
+		margin-top: 20px;
+		margin-bottom: 50px;
+	}
 
-#fond
-{
-	margin: auto;
-	width: 100%;
-	position: relative;
-	top: 100px;
+	#fond
+	{
+		margin: auto;
+		width: 100%;
+		position: relative;
+		top: 100px;
+	}
+
+
+	.listserv
+	{
+		flex-direction: column;
+		text-align: left;
+	}
+
+	#icopcbox
+	{
+		margin: auto;
+	}
+
+	.text
+	{
+		width: 600px;
+		margin-left: 100px;
+	}
+
+	#portfolio
+	{
+		margin-top: 50px;
+		padding-top: 20px;
+
+
+	}
+
+	figure
+	{
+		width: 360px;
+		height: 260px;
+	}
+
+
+
+	#imgsportfolio
+	{
+		display: flex;
+		justify-content: space-around;
+		flex-direction: row;
+		flex-wrap: wrap;
+		width: 100%;
+	}
+
+	.imgpf
+	{
+		width: 280px;
+		height: 210px;
+		margin-top: 50px;
+		margin-bottom: 60px;
+		margin-left: 50px;
+		margin-right: 20px;
+	}
+	#alltxtimg
+	{
+		margin-top: 85px;
+		bottom: 185px;
+	}
+
+	#txtimg
+	{
+		position: absolute;
+		left: 810px;
+		font-size: 0.7em;
+	}
+
+	#logosite
+	{
+		margin: auto;
+	}
+
+	nav
+	{
+		flex-direction: column;
+	}
+
+	nav ul li
+	{
+		margin-left: -25px;
+
+	}
+
+	ul
+	{
+		width: 500px;
+		margin: auto;
+		margin-top: 5px;
+		margin-bottom: -10px;
+	}
+
+	iframe
+	{
+		height: 880px;
+	}
+
+	form
+	{
+
+		width: 45%;
+		height: 420px;
+		position: relative;
+		top: -200px;
+		left: 25%;
+		padding: 20px;
+
+	}
+
 }
 
-
-.listserv
-{
-	flex-direction: column;
-	text-align: left;
-}
-
-#icopcbox
-{
-	margin: auto;
-}
-
-.text
-{
-width: 600px;
-margin-left: 100px;
-}
-
-#portfolio
-{
-	margin-top: 50px;
-	padding-top: 20px;
-
-
-}
-
-figure
-{
-width: 360px;
-height: 260px;
-}
-
-
-
-#imgsportfolio
-{
-    display: flex;
-	justify-content: space-around;
-	flex-direction: row;
-	flex-wrap: wrap;
-	width: 100%;
-}
-
-.imgpf
-{
-width: 280px;
-height: 210px;
-margin-top: 50px;
-margin-bottom: 60px;
-margin-left: 50px;
-margin-right: 20px;
-}
-#alltxtimg
-{
-	margin-top: 85px;
-	bottom: 185px;
-}
-
-#txtimg
-{
- position: absolute;
- left: 850px;
- font-size: 0.7em;
-}
-
-#logosite
-{
-	margin: auto;
-}
-
-nav
-{
-	flex-direction: column;
-}
-
-nav ul li
-{
-margin-left: -25px;
-
-}
-
-ul
-{
-	width: 500px;
-	margin: auto;
-	margin-top: 5px;
-	margin-bottom: -10px;
-}
-
-#carte
-{
-	height: 880px;
-}
-
-form
-{
-	
-   width: 45%;
-   height: 420px;
-   position: relative;
-   top: -200px;
-   left: 25%;
-   padding: 20px;
-    
-}
-
-}
-
-@media all and (min-device-width: 1000px) and (max-device-width: 1024px)
+@media all and (min-device-width: 769px) and (max-device-width: 1024px)
 {
 	#txtimg
 	{
@@ -1062,7 +1060,7 @@ form
 		font-size: 1em;
 		position: absolute;
 		left: 830px;
-		bottom: -282px;
+		bottom: 240px;
 	}
 
 	form
