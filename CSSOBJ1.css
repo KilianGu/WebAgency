@@ -478,6 +478,10 @@ figure:hover .legende-portfolio
 /* ==            CONTACT              */
 /*---------------------------------------- */
 
+#titre-contact
+{
+	visibility: hidden;
+}
 
 form
 {
@@ -552,7 +556,7 @@ form button
 
 /*     Tablette     */
 
-@media all and (min-device-width: 481px)
+@media screen and (min-width: 481px)
 
 {
 	nav
@@ -648,7 +652,7 @@ form button
 
 /*   769 à 1024px    */
 
-@media all and (min-device-width: 769px) 
+@media screen and (min-width: 769px) 
 
 {
 
@@ -666,7 +670,7 @@ form button
 
 /*   A partir de 1025px et plus   */
 
-@media all and (min-device-width: 1025px)
+@media screen and (min-width: 1025px)
 {
 	#logosite
 	{
