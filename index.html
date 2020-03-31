@@ -1,233 +1,324 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
+    <head>
 
- <meta charset="utf-8" />
- <meta name="viewport" content="width=device-width" />
- <link rel="stylesheet" href="CSSOBJ1.css" />
- <title>WebAgency - Vos projets web concrétisés!</title>
- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+        <link rel="stylesheet" href="CSSOBJ1.css" />
+        <title>WebAgency - Vos projets web concrétisés!</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
-</head>
+    </head>
 
-<body>
+    <body>
 
-  <header>
-    <nav>
-      <div id="logosite">
-        <img id="logo" src="Images/logo.png" alt="logo"> 
-      </div>
+        <header class="bg-color-white">
 
-      <ul>
+            <nav class="conteneur">
+                <div id="logosite">
+                   <img id="logo" src="Images/logo.png" alt="logo" />
+                </div>
 
-        <li> <a href="#mainpage"> Accueil </a> </li>	
-        <li> <a href="#services"> Services </a> </li>	
-        <li> <a href="#portfolio"> Portfolio </a> </li>	
-        <li> <a href="#contact"> Contact </a> </li>
+                <ul>
 
-      </ul>
-    </nav>
-  </header>
+                    <li> <a href="#bienvenue"> Accueil </a> </li>  
+                    <li> <a href="#services"> Services </a> </li> 
+                    <li> <a href="#portfolio"> Portfolio </a> </li> 
+                    <li> <a href="#contact"> Contact </a> </li>
 
-
-  <div id="mainpage">
-    
-
-    <img id="fond" src="Images/bg1.jpg" alt="bg1"> 
-
-    <div id="alltxtimg">
-      <div id="flechegauche"> 
-        <i class="fas fa-chevron-left"></i> 
-       </div>
-
-      <div id="txtimg"> 
-        <strong> 
-          <span id="bluewebagn"> WEBAGENCY </span> : L'AGENCE DE TOUS 
-          <span id="brprojets"> VOS PROJETS ! </span> 
-        </strong>
-
-        <div> 
-         <em> Vous avez un projet web ? La WebAgency <span id="brrealiser"> vous aide  à le réaliser ! </span> </em> 
-        </div>
-
-        <div id="BoutonInfo">  <em> Plus d'infos </em> </div>
-      </div>
-
-      <div id="flechedroite"> 
-        <i class="fas fa-chevron-right"></i> 
-      </div>
-
-    </div>
-  </div> <!-- /#mainpage -->
-
-  <section id="services">
-    <div class="descsection">
-
-      <h2> NOS SERVICES </h2>
-      <hr/>
-      <div class="pointbleu"> </div>
-
-      <p> Avec WebAgency, une panoplie de services est à votre disposition.
-      Voici une petite présentation de ce qui est disponible ! </p>
-    </div>
-
-    <div class="listserv">
-     <div id="icopcbox">
-       <img id="icopc" src="Images/main-feature.png" alt="icopc"> 
-     </div> 
-
-     <div class="text">
-
-       <i class="fas fa-chart-line"> </i> <span class="bleuicone"> </span> <h3> UX design </h3>
-
-       <p> L'UX Design consiste dans la conception de la manière la plus optimale d'un site web pour favoriser l'utilisation. </p>
-
-       <i class="fas fa-cubes"></i> <span class="bleuicone"> </span> <h3> UI design </h3>
-
-       <p> UI (User Interface) vous permet de naviguer confortablement grâce à un design fonctionnel et adapté. </p>
-
-       <i class="fas fa-chart-pie"></i> <span class="bleuicone"> </span> <h3> SEO </h3>
-
-       <p> SEO (Search Engine Optimization) est un ensemble de techniques qui a pour objectif d'optimiser le référencement d'une page web dans les résultats de recherches. </p> 
-     </div> <!-- /#text -->
-   </div> <!-- /.listserv -->
- </section> <!-- /#services -->
+                </ul>
+            </nav>
+        </header>
 
 
- <section id="portfolio">
-      <div class="descsection">
-        <h2> NOS PROJETS </h2>
-        <hr/>
-       <div class="pointbleu"> </div>
-
-       <p>Ci dessous sont répertoriés quelques de nos créations. N'hésitez pas à y
-       jeter un coup d'oeil.</p>
-     </div>
-
-    <div id="barreprojets">
-     <div class="sectionbarre radius-gauche"> All Works <i class="fas fa-sort-down"></i> </div>
-     <div class="sectionbarre"> Creative <i class="fas fa-sort-down"></i> </div>
-     <div class="sectionbarre"> Corporate <i class="fas fa-sort-down"></i> </div>
-     <div class="sectionbarre radius-droite"> Portfolio <i class="fas fa-sort-down"></i> </div> 
-   </div>
-
-   <div id="imgsportfolio">
-
-     <figure>
-       <img class="imgpf" src="Images/01.jpg" alt="Visage à lunettes">
-       <figcaption>
-          <h4> Portfolio Item 1 </h4>
-          <p> Visage à lunettes
-          <i class="far fa-eye"></i>
-         </figcaption>
-       </figure>
-
-     <figure>
-       <img class="imgpf" src="Images/02.jpg" alt="Lapin rose">
-       <figcaption>
-          <h4> Portfolio Item 2 </h4>
-          <p> Costume de lapin rose </p>
-          <i class="far fa-eye"></i>
-         </figcaption>
-       </figure>
-
-     <figure>
-       <img class="imgpf" src="Images/03.jpg" alt="Pompadour">
-       <figcaption>
-          <h4> Portfolio Item 3 </h4>
-          <p> Pompadour </p>
-          <i class="far fa-eye"></i>
-         </figcaption>
-       </figure>
-
-     <figure>
-       <img class="imgpf" src="Images/04.jpg" alt="Plans">
-       <figcaption>
-          <h4 >Portfolio Item 4 </h4>
-          <p> Plans </p>
-          <i class="far fa-eye"></i>
-         </figcaption>
-       </figure>
-
-     <figure>
-       <img class="imgpf" src="Images/05.jpg" alt="Sacs">
-       <figcaption>
-          <h4> Portfolio Item 5 </h4>
-          <p> Sacs noir et blanc </p>
-          <i class="far fa-eye"></i>
-         </figcaption>
-       </figure>
-
-     <figure>
-       <img class="imgpf" src="Images/06.jpg" alt="Voyage">
-       <figcaption>
-          <h4> Portfolio Item 6 </h4>
-          <p> Voyage à travers le monde </p>
-          <div class="linear-gradient"> <i class="far fa-eye"></i> </div>
-         </figcaption>
-       </figure>
-
-     <figure>
-       <img class="imgpf" src="Images/07.jpg" alt="Fusée">
-       <figcaption>
-          <h4> Portfolio Item 7 </h4>
-          <p> Décollage de fusée </p>
-          <i class="far fa-eye"></i>
-         </figcaption>
-       </figure>
-
-     <figure>
-       <img class="imgpf" src="Images/08.jpg" alt="Panoplie">
-       <figcaption>
-          <h4> Portfolio Item 8 </h4>
-          <p> Panoplie de divers objets </p>
-          <i class="far fa-eye"></i>
-         </figcaption>
-       </figure>
-
-     </div> <!-- /#imgsportfolio -->
+        <figure id="accueil"> <!-- Figure (position relative) -->
 
 
+            <img id="fond" src="Images/bg1.jpg" alt="Image d'accueil" /> 
+ 
+            <figcaption id="slider-accueil">
 
-   </section> <!-- /#portfolio -->
+                <div id="fleche-gauche"> 
+                    <i class="fas fa-chevron-left"></i> 
+                </div>
 
-  <section id="contact">
-   <div class="descsection">
-      <h2> CONTACT </h2>
-      <hr />
-      <div class="pointbleu"> </div>
-     </div>
+                <div id="texte-slider"> 
+
+                    <h1> 
+                        <span class="color-blue"> WEBAGENCY </span> : L'AGENCE DE TOUS 
+                        VOS PROJETS !
+                    </h1>
+
+                    <p> 
+                        Vous avez un projet web ? La WebAgency vous aide à le réaliser! </span> 
+                    </p> 
+     
+
+                    <button class="bg-color-blue"> Plus d'infos </button>   
+                </div>
+
+                <div id="fleche-droite"> 
+                    <i class="fas fa-chevron-right"></i> 
+                </div>
+            </figcaption>
+
+            <figcaption id="trait">
+
+                <div id="trait-bleu" class="bg-color-blue"> </div>
+                <div id="trait-ombre"> </div>
+            </figcaption>
+
+        </figure> <!-- fermeture figure -->
+
+        <section id="services" class="bg-color-white">
+
+            <div class="description padding conteneur">
+
+                <h2> NOS SERVICES </h2>
+
+                <span class="decoration">
+                    <hr/>
+                    <div class="point-bleu-deco bg-color-blue"> </div>  
+                    <hr/>
+                </span>
+
+                <p> 
+                    Avec WebAgency, une panoplie de services est à votre disposition.
+                    Voici une petite présentation de ce qui est disponible ! 
+                </p>
+            </div>
+
+            <div class="liste-services">
+
+                <div id="boite-pc">
+                    <img src="Images/main-feature.png" alt="icône d'ordinateur"> 
+                </div> 
+
+                <div id="text" class="conteneur">
+
+                    <div class="un-service">
+
+                        <div class="icone-service">
+                            <i class="fas fa-chart-line color-blue"> </i> 
+                            <div class="point-bleu-service bg-color-blue"> </div> 
+                        </div>
+
+                        <div class="paragraphe">
+                            <h3> UX design </h3>
+
+                            <p> L'UX Design consiste dans la conception de la manière la plus optimale d'un site web pour favoriser l'utilisation. </p>
+                        </div>
+                    </div>
+
+                    <div class="un-service">
+
+                        <div class="icone-service">
+                            <i class="fas fa-cubes color-blue"> </i> 
+                            <div class="point-bleu-service bg-color-blue"> </div> 
+                        </div>
+
+                        <div class="paragraphe">
+                            <h3> UI design </h3>
+
+                            <p> UI (User Interface) vous permet de naviguer confortablement grâce à un design fonctionnel et adapté. </p>
+                        </div>
+                    </div>
+
+                    <div class="un-service">
+
+                        <div class="icone-service">
+                            <i class="fas fa-chart-pie color-blue"> </i> 
+                            <div class="point-bleu-service bg-color-blue"> </div> 
+                        </div>
+
+                        <div class="paragraphe">
+                            <h3> SEO </h3>
+
+                            <p> SEO (Search Engine Optimization) est un ensemble de techniques qui a pour objectif d'optimiser le référencement d'une page web. </p>  
+                        </div> 
+                    </div>          
+                </div> <!-- /#text -->
+            </div> <!-- /.listserv -->
+        </section> <!-- /#services -->
 
 
-       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3214.7751231844472!2d6.178226553809967!3d48.69308933486163!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47949872a45e2bbf%3A0x7b75218edde93978!2s17+Rue+Gustave+Simon%2C+54000+Nancy!5e1!3m2!1sfr!2sfr!4v1561816881284!5m2!1sfr!2sfr" width="600" height="450" allowfullscreen></iframe>
-     <div>
-     <form method="post" action="traitement.php" >
+        <section id="portfolio">
 
-       <p>
-         <strong> Contact Info </strong>
-       </p>
-       <p>
-        WebAgency SAS <br>
-       25 Rue d'Hauteville 75010 Paris <br>
-       Tel: 01 02 03 04 05
+            <div class="description padding conteneur">
 
-      </p>
+                <h2> NOS PROJETS </h2>
 
-      <input type="text" name="Nom" placeholder="Nom">
-      <input type="text" name="Email" placeholder="Email">
-      <input type="text" name="Sujet" placeholder="Sujet">
-       <textarea name="Message" id="Message" cols="20" rows="6" placeholder="Message"></textarea>
+                <div class="decoration">
+                    <hr/>
+                    <div class="point-bleu-deco bg-color-blue"> </div>
+                    <hr/>
+                </div>
 
-       <span id="boutoninfo2">  <em> Envoyer </em> </span>
+                <p> Ci dessous sont répertoriées quelques de nos créations. N'hésitez pas à y
+                jeter un coup d'oeil.</p>
+            </div>
 
+            <div id="barreprojets">
 
+                <div class="sectionbarre" id="radius-gauche"> All Works <i class="fas fa-sort-down"></i> </div>
+                <div class="sectionbarre"> Creative <i class="fas fa-sort-down"></i> </div>
+                <div class="sectionbarre"> Corporate <i class="fas fa-sort-down"></i> </div>
+                <div class="sectionbarre radius-droite"> Portfolio <i class="fas fa-sort-down"></i> </div> 
+            </div>
 
-    </form>
-      </div>
+            <div id="images-portfolio">
 
-   </section>
+                <figure>
 
+                    <img class="imgpf" src="Images/01.jpg" alt="Visage à lunettes">
 
-  </body>
+                    <figcaption class="legende-portfolio">
 
-  </html>
+                        <h4> Portfolio Item 1 </h4>
+                        <p> Visage à lunettes </p>
+                        <div class="icone-oeil">
+                            <i class="far fa-eye"></i>
+                        </div>
+                    </figcaption>
+                </figure>
+
+                <figure>
+
+                    <img class="imgpf" src="Images/02.jpg" alt="Lapin rose">
+
+                    <figcaption class="legende-portfolio">
+
+                        <h4> Portfolio Item 2 </h4>
+                        <p> Costume de lapin rose </p>
+                        <div class="icone-oeil">
+                            <i class="far fa-eye"></i>
+                        </div>
+                    </figcaption>
+                </figure>
+
+                <figure>
+
+                    <img class="imgpf" src="Images/03.jpg" alt="Pompadour">
+
+                    <figcaption class="legende-portfolio">
+
+                        <h4> Portfolio Item 3 </h4>
+                        <p> Pompadour </p>
+                        <div class="icone-oeil">
+                            <i class="far fa-eye"></i>
+                        </div>
+                    </figcaption>
+                </figure>
+
+                <figure>
+
+                    <img class="imgpf" src="Images/04.jpg" alt="Plans">
+
+                    <figcaption class="legende-portfolio">
+
+                        <h4 >Portfolio Item 4 </h4>
+                        <p> Plans </p>
+                        <div class="icone-oeil">
+                            <i class="far fa-eye"></i>
+                        </div>
+                    </figcaption>
+                </figure>
+
+                <figure>
+
+                    <img class="imgpf" src="Images/05.jpg" alt="Sacs">
+
+                    <figcaption class="legende-portfolio">
+
+                        <h4> Portfolio Item 5 </h4>
+                        <p> Sacs noir et blanc </p>
+                        <div class="icone-oeil">
+                            <i class="far fa-eye"></i>
+                        </div>
+                    </figcaption>
+                </figure>
+
+                <figure>
+
+                    <img class="imgpf" src="Images/06.jpg" alt="Voyage">
+
+                    <figcaption class="legende-portfolio">
+
+                        <h4> Portfolio Item 6 </h4>
+                        <p> Voyage à travers le monde </p>
+                        <div class="icone-oeil">
+                            <i class="far fa-eye"></i>
+                        </div>
+                    </figcaption>
+                </figure>
+
+                <figure>
+
+                    <img class="imgpf" src="Images/07.jpg" alt="Fusée">
+
+                    <figcaption class="legende-portfolio">
+
+                        <h4> Portfolio Item 7 </h4>
+                        <p> Décollage de fusée </p>
+                        <div class="icone-oeil">
+                            <i class="far fa-eye"></i>
+                        </div>
+                    </figcaption>
+                </figure>
+
+                <figure>
+
+                    <img class="imgpf" src="Images/08.jpg" alt="Panoplie">
+
+                    <figcaption class="legende-portfolio">
+
+                        <h4> Portfolio Item 8 </h4>
+                        <p> Panoplie de divers objets </p>
+                        <div class="icone-oeil">
+                            <i class="far fa-eye"></i>
+                        </div>
+                    </figcaption>
+                </figure>
+
+            </div> <!-- /#imgsportfolio -->
+        </section>  <!-- /#portfolio -->
+
+        <section id="contact">
+      
+            <figure id="formulaire-contact">
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11588.346911889756!2d4.863441960447894!3d52.367702900706746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c609e058726b83%3A0x1c03925af1db1ffe!2sBilderdijkkade%20684%2C%201053%20VW%20Amsterdam%2C%20Pays-Bas!5e0!3m2!1sfr!2sfr!4v1573056154169!5m2!1sfr!2sfr"> </iframe>
+
+                
+                <div id="calquebleu"> </div>
+                
+
+                <figcaption id="formulaire">
+
+                    <form method="post" action="traitement.php" >
+
+                        <p>
+                            <strong> Contact Info </strong>
+                        </p>
+
+                        <p>
+
+                            <span id="adresse">
+                                <span id="webagencysas"> WebAgency SAS </span> <br>
+                                25 Rue d'Hauteville 75010 Paris <br />
+                                Tel: 01 02 03 04 05
+                            </span>
+                        </p>
+
+                        <input type="text" name="Nom" placeholder="Nom">
+                        <input type="text" name="Email" placeholder="Email">
+                        <input type="text" name="Sujet" placeholder="Sujet">
+                        <textarea name="Message" id="Message" cols="30" rows="6" placeholder="Message"></textarea>
+
+                        <button class="bg-color-blue">  Envoyer  </button>
+                    </form>  
+                </figcaption>
+            </figure>
+        </section>
+    </body>
+</html>
