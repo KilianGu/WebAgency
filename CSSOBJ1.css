@@ -24,20 +24,19 @@ Light gray (h2) :		#747474
 /* == ÉLÉMENTS PRINCIPAUX */
 /*---------------------------------------- */
 
-@font-face
-{
-	font-family: "Roboto";
-	src: url("Fonts/Roboto-Regular.ttf");
+@font-face {
+ 	font-family: "Roboto";
+ 	src: url("/Fonts/Roboto-Regular.ttf") format("ttf");    
 }
 
 body
 {
 	margin: 0;
+	font-family: "Roboto";
 }
 
 h2 /* Propriétés CSS pour les titres de chaque section */
 {
-	font-family: "Roboto";
 	font-size: 2.6em;
 	text-align: center;
 	margin-bottom: 20px;
@@ -424,7 +423,7 @@ nav ul li
 	flex-wrap: wrap;
 	margin: auto;
 	min-width: 70%;
-	max-width: 80%;
+	max-width: 100%;
 }
 
 #images-portfolio figure
