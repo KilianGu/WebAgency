@@ -692,6 +692,7 @@ form button
 	{
 		width: 50%;
 		max-width: 550px;
+		font-size: 1.1em;
 	}
 
 	#texte-slider button
