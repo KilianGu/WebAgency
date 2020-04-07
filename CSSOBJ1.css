@@ -26,9 +26,9 @@ Light gray (h2) :		#747474
 
 @font-face {
  	font-family: "Roboto";
- 	src: url("Projet 1/Fonts/Roboto-Regular.ttf") format("TrueType");
+ 	src: url("./Fonts/Roboto-Regular.ttf") format("TrueType");
  	font-family: "CORBEL";
- 	src: url("Projet 1/Fonts/CORBEL.ttf") format("TrueType");
+ 	src: url("./Fonts/CORBEL.ttf") format("TrueType");
 }
 
 body
